@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ccffd8, #a3d9ff);
+    color: #fff;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.history {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-panel h2,
+.right-panel h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.left-panel select,
+.left-panel input,
+.right-panel select {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    background: #7ee8df;
+    color: #fff;
+}
+
+.save-btn {
+    margin-top: 15px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    background: white;
+    color: #00bfa6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.center-panel .chart {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.left-panel {
+    border: 2px solid white;
+}
+
+.center-panel {
+    border: 2px solid white;
+}
+
+.right-panel {
+    border: 2px solid white;
+}
