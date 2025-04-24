@@ -1,0 +1,104 @@
+
+<html>
+<head>
+  <title>Mutual Funds Account</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ccffd8, #a3d9ff);
+      font-family: Arial, sans-serif;
+      padding-top: 80px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: #2c3e50;
+      font-style: italic;
+      font-weight:bold;
+      text-align:center;
+
+      
+    }
+
+    table {
+      margin-left:400px;
+     
+      
+    }
+
+    th {
+      text-align: right;
+      padding: 10px;
+      color: #2c3e50;
+      font-size: 18px;
+    }
+
+    td {
+      padding: 10px;
+    }
+
+    input , select{
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      width: 250px;
+      background-color: #00c3cc;
+      color: white;
+    }
+
+    input::placeholder {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <marquee scrollamount=7 direction="up" behavior="alternate"> <h1> MUTUAL FUNDS  </h1></marquee>
+      <table border=1>
+        <tr>
+          <th>Investment Amount</th>
+          <td><input type="number" placeholder="Enter Investment Amount" required></td>
+        </tr>
+
+
+        <tr>
+          <th>Frequency (Fill Only If SIP) </th>
+          <td>
+          <select>
+	    <option value=" "> Select Frequency </option>  
+	   <option value="Monthly "> Monthly </option>  
+	     <option value="Quarterly "> Quarterly </option>  
+	       <option value="Half-yearly "> Half-Yearly </option>
+		</select> 
+		</td> 
+        </tr>
+
+
+        <tr>
+          <th>Investment  Start Date</th>
+          <td><input type="date" placeholder="Enter Date" required></td>
+        </tr>
+
+
+	 <tr>
+          <th>Investment  Duration </th>
+          <td><input type="number" placeholder="Enter Policy Duration" required></td>
+        </tr>
+
+
+
+ <tr>
+
+<th> <input type="RESET" value="RESET"> </th>
+<td> <input type="SUBMIT" value="SUBMIT"> </td>
+
+</tr>
+ 
+
+      </table>
+    </fieldset>
+  </form>
+</body>
+</html>
